@@ -1,0 +1,75 @@
+
+html, body, h1 {
+  margin: 0;
+}
+
+html {
+  background: url(../images/ofsz2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 3vw;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+}
+
+h1, h2, h4 {
+  font-family: 'Josefin Slab', serif;
+  //font-family: 'Montserrat', sans-serif;
+  //font-family: 'Karla', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h4 {
+  margin-top: 3vw;
+  font-family: 'Karla', sans-serif;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
